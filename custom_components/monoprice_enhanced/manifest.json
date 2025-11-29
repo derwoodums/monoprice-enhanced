@@ -1,0 +1,10 @@
+{
+  "domain": "monoprice_enhanced",
+  "name": "Monoprice 6-Zone Amplifier Enhanced",
+  "codeowners": ["@derwoodums"],
+  "config_flow": true,
+  "documentation": "https://github.com/derwoodums/monoprice-enhanced",
+  "iot_class": "local_polling",
+  "requirements": ["pymonoprice==0.4"],
+  "version": "1.0.0"
+}

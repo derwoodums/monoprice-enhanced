@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Monoprice 6-Zone Amplifier Enhanced",
+        "description": "Connect to your Monoprice 6-Zone Amplifier",
+        "data": {
+          "port": "Serial Port"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the amplifier",
+      "unknown": "Unexpected error"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure Sources",
+        "description": "Set custom names for your audio sources",
+        "data": {
+          "1": "Source 1 Name",
+          "2": "Source 2 Name",
+          "3": "Source 3 Name",
+          "4": "Source 4 Name",
+          "5": "Source 5 Name",
+          "6": "Source 6 Name"
+        }
+      }
+    }
+  },
+  "services": {
+    "snapshot": {
+      "name": "Snapshot",
+      "description": "Take a snapshot of the current zone state"
+    },
+    "restore": {
+      "name": "Restore",
+      "description": "Restore a previously taken snapshot"
+    }
+  }
+}

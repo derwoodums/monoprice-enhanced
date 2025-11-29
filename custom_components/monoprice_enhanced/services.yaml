@@ -1,0 +1,15 @@
+snapshot:
+  name: Snapshot
+  description: Take a snapshot of the current zone state for later restore
+  target:
+    entity:
+      integration: monoprice_enhanced
+      domain: media_player
+
+restore:
+  name: Restore
+  description: Restore a previously taken snapshot of the zone state
+  target:
+    entity:
+      integration: monoprice_enhanced
+      domain: media_player
