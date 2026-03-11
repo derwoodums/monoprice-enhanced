@@ -75,15 +75,9 @@ Save the current state of all zones.
 ### `monoprice_enhanced.restore`
 Restore zones to their previously saved state.
 
-## Bundled Lovelace Card
+## Example Lovelace Card
 
-This integration includes a custom Lovelace card for compact zone control. The card is automatically registered when the integration loads — no separate HACS install needed.
-
-After installing or updating the integration, restart Home Assistant and hard-refresh your browser (Ctrl+Shift+R / Cmd+Shift+R) to pick up the new card.
-
-### Card Configuration
-
-Add the card via the Lovelace UI card picker (search for "Monoprice Zone Card") or manually in YAML:
+For a compact zone control card, check out the companion [Monoprice Zone Card](https://github.com/derwoodums/monoprice-zone-card).
 
 ```yaml
 type: custom:monoprice-zone-card
